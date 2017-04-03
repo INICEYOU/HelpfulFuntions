@@ -13,6 +13,8 @@
 		062640951E92EE0F0045F0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062640941E92EE0F0045F0EB /* Assets.xcassets */; };
 		062640981E92EE0F0045F0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062640961E92EE0F0045F0EB /* LaunchScreen.storyboard */; };
 		062640A31E92EE0F0045F0EB /* HelpfulFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062640A21E92EE0F0045F0EB /* HelpfulFunctionsTests.swift */; };
+		062640AE1E92EEDF0045F0EB /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062640AD1E92EEDF0045F0EB /* GCD.swift */; };
+		062640AF1E92EEDF0045F0EB /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062640AD1E92EEDF0045F0EB /* GCD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		0626409E1E92EE0F0045F0EB /* HelpfulFunctionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpfulFunctionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		062640A21E92EE0F0045F0EB /* HelpfulFunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpfulFunctionsTests.swift; sourceTree = "<group>"; };
 		062640A41E92EE0F0045F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062640AD1E92EEDF0045F0EB /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GCD.swift; path = Extensions/GCD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				062640941E92EE0F0045F0EB /* Assets.xcassets */,
 				062640961E92EE0F0045F0EB /* LaunchScreen.storyboard */,
 				062640991E92EE0F0045F0EB /* Info.plist */,
+				062640AD1E92EEDF0045F0EB /* GCD.swift */,
 			);
 			path = HelpfulFunctions;
 			sourceTree = "<group>";
@@ -201,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062640AE1E92EEDF0045F0EB /* GCD.swift in Sources */,
 				062640901E92EE0F0045F0EB /* ViewController.swift in Sources */,
 				0626408E1E92EE0F0045F0EB /* AppDelegate.swift in Sources */,
 			);
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062640AF1E92EEDF0045F0EB /* GCD.swift in Sources */,
 				062640A31E92EE0F0045F0EB /* HelpfulFunctionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
